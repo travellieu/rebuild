@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Ubunt');
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 100%;
+    color: #666;
+    text-align: center;
+
+}
+
+.parallax1 {
+    background: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 100%;    
+    
+}
+
+.parallax2 {
+    background: url(https://images.pexels.com/photos/273760/pexels-photo-273760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 60%;
+}
+
+.parallax3 {
+    background: url(https://images.pexels.com/photos/158136/greece-holidays-holiday-summer-158136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 40%;
+}
+
+.parallax4 {
+    background: url(https://images.pexels.com/photos/164229/pexels-photo-164229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    min-height: 100%;
+}
+
+.parallax1,
+.parallax2,
+.parallax3,
+.parallax4 {
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading {
+    position: absolute;    
+    
+    font-weight: 700;  
+    width: 100%;
+    height:100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10Px #000;     
+     background-color: black;
+     border: 1px solid black;
+     opacity: 0.6;
+     filter: alpha(opacity=100);
+     /* For IE8 and earlier */
+}
+.heading p{
+    text-align: left;
+    font-size:250%;
+    font-weight:100%;
+    color:white;
+
+}
+.heading h1{
+    
+    font-size:150%;
+    text-align: left;
+    color:white;
+}
+.heading button{
+ opacity:0.5;
+ font-size:100%;
+ font-weight:100%;
+ border: 2px solid black;
+  text-shadow: 0 0 10Px #000;
+
+ 
+}
+
+
+
+.heading-sm {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    color: #fff;
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    text-shadow: 0 0 10Px #000;
+
+
+}
+
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left;
+}
+
+section {
+    overflow: auto;
+    padding: 50px 80px;
+}
+
+.dark {
+    overflow: auto;
+    padding: 50px 80px;
+    background-color: #323232;
+    color: #f2f2f2;
+
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 250%;
+    }
+
+    .heading-sm {
+        font-size: 180%;
+    }
+
+    .two-col {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+}
