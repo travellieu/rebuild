@@ -12,30 +12,46 @@ html {
 }
 
 .parallax1 {
-    background: url(https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(https://travel.home.sndimg.com/content/dam/images/travel/stock/2016/9/15/Getty-BobPool-531973891_CinqueTerre_ColorfulPlaces.jpg.rend.hgtvcom.616.411.suffix/1491594415077.jpeg);
     min-height: 100%;    
     
 }
 
 .parallax2 {
-    background: url(https://images.pexels.com/photos/273760/pexels-photo-273760.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(https://tse2.mm.bing.net/th?id=OIP.yb38uTj3n_FjSj4at4pPjAHaEo&pid=Api&P=0&w=250&h=157);
     min-height: 60%;
 }
 
 .parallax3 {
-    background: url(https://images.pexels.com/photos/158136/greece-holidays-holiday-summer-158136.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    min-height: 40%;
+    background: url(https://tse2.mm.bing.net/th?id=OIP.m7hoTo4d6jk-ZbxIMaUsRwHaE7&pid=Api&P=0&w=266&h=178);
+    min-height: 50%;
+}
+.parallax5 {
+    background: url(https://usatunofficial.files.wordpress.com/2015/01/7-this-looks-like-an-awesome-vacation-spot-a-hot-tub-inside-of-a-roofless-igloo-seems-like-a-pretty-good-place-to-relax-these-are-13-of-the-coolest-igloos-from-around-the-world.jpg);
+    min-height: 50%;
+}
+.parallax6 {
+    background: url(https://tse4.mm.bing.net/th?id=OIP.b2879Oa0X980_uupdrMBvwHaEo&pid=Api&P=0&w=313&h=196);
+    min-height: 50%;
+}
+.parallax7 {
+    background: url(https://timedotcom.files.wordpress.com/2017/12/mauritius-best-places-travel-2018.jpg);
+    min-height: 50%;
 }
 
 .parallax4 {
-    background: url(https://images.pexels.com/photos/164229/pexels-photo-164229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(http://creatv.com/wordpress2/wp-content/uploads/2012/12/thailand_free.jpg);
     min-height: 100%;
 }
 
 .parallax1,
 .parallax2,
 .parallax3,
-.parallax4 {
+.parallax4,
+.parallax5,
+.parallax6,
+.parallax7
+ {
     position: relative;
     opacity: .75;
     background-position: center;
